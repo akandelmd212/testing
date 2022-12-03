@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<style>
+
+
+body {background-color:  yellow;}
+
+
+.ola {color:black; background-color:white;   }
+
+textarea, input, select {border-radius:10px;}
+
+</style>
+
+
+
+<title>CREATING FORM</title>
+</head>
+<body>
+<fieldset>
+<legend><h2><u>FILL THE FOLLOWING</u></h2>
+</legend>
+<section  class="ola">
+<div    class="dor">
+<form>
+<p> Name: <br/>
+<input type="text" name="full name" placeholder="enter your fullname"/>
+</p>
+</form>
+<form>
+<p> Email: <br/>
+<input type="email" name="email" placeholder="abc@gmail.com"/>
+</p>
+</form>
+<form>
+<p> Age: <br/>
+<input type="number" name="age" placeholder="enter your age"/>
+</p>
+</form>
+<form>
+<p> Which option best describes your current role? <br/> 
+<select name="current role" multiple>
+<option value="self-employed">Self-employed</option>
+<option value="student">Student
+</option>
+<option value="employed">Employed</option>
+<option value="jobless">Jobless</option>
+</select>
+</p>
+</form>
+<form>
+<p> Would you recommend FreeCodeCamp to a friend? <br/>
+<input type="radio" name="services" value="definitely"/>Definitely <br/>
+<input type="radio" name="services" value="maybe"/>Maybe <br/>
+<input type="radio" name="services" value="Never"/>Never
+</p>
+</form>
+<form>
+<p> What is your favorite feature of FreeCodeCamp? <br/>
+<select name="features"> <br/>
+<option value="simplicity">Simplicity</option>
+<option value="challenges">Challenges</option>
+<option value="understandable">Understandable
+</option>
+</select>
+</p>
+</form>
+<form>
+<p> What will you like to see improved? (check all that apply) <br/>
+<input type="checkbox" name="services" value="front-end projects"/>Front-end Projects <br/>
+<input type="checkbox" name="services" value="back-end projects"/>Back-end Projects <br/>
+<input type="checkbox" name="services" value="challenges"/>Challenges <br/>
+<input type="checkbox" name="services" value="data visualization"/>Data Visualization <br/>
+<input type="checkbox" name="services" value="open source community"/>Open Source Community <br/>
+<input type="checkbox" name="services" value="gitter help room"/>Gitter Help Room 
+<br/>
+<input type="checkbox" name="services" value="videos"/>Videos <br/>
+<input type="checkbox" name="services" value="city meetups"/>City Meetups <br/>
+<input type="checkbox" name="services" value="wiki"/>Wiki <br/>
+<input type="checkbox" name="services" value="forum"/>Forum <br/>
+<input type="checkbox" name="services" value="additional courses"/>Additional courses
+</p>
+</form>
+<form>
+<p>
+<label for="comments"> Any comments or suggestions? </label> <br/>
+<textarea rows="3" cols="25" id="comments" placeholder="Enter your comments...">
+</textarea>
+<p>
+<input type="submit" value="Submit"/>
+
+
+
+</p>
+</form>
+</div>
+</section>
+</fieldset>
+</body>
+</html>
